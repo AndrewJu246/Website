@@ -9,6 +9,7 @@ const research = [
     publication:
       "Bridging the Gap: Digital Transformation and Talent Flow in China’s Securities Market",
     venue: "36th AsianFA Annual Conference",
+    link: null,
   },
   {
     institution: "Townsend Lab, Yale School of Public Health",
@@ -20,6 +21,7 @@ const research = [
     publication:
       "Deconvolving mutation and selection reveals drivers of stages of thyroid cancer",
     venue: "AACR Annual Meeting 2025",
+    link: null,
   },
   {
     institution: "Heterogenous Association Between Mortality and Environmental Factors",
@@ -30,6 +32,7 @@ const research = [
       "Examined the relationship between environmental conditions and public health outcomes using correlation analysis and linear regression on population level data.",
     publication: null,
     venue: "Published in Science Journal of Public Health",
+    link: "https://www.sciencepublishinggroup.com/article/10.11648/j.sjph.20241201.12",
   },
   {
     institution: "The Classification of Music Genre through Vector Clustering Models",
@@ -40,6 +43,7 @@ const research = [
       "Trained a machine learning model to vectorize audio features and cluster songs, identifying quantitative patterns of similarity across 10 music genres.",
     publication: null,
     venue: null,
+    link: null,
   },
 ];
 
@@ -73,6 +77,19 @@ export default function Research() {
               )}
               {!r.publication && r.venue && (
                 <p className="mt-2 text-sm text-gray-500 italic">{r.venue}</p>
+              )}
+              {r.link && (
+                <a
+                  href={r.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 mt-2 text-sm text-blue-600 hover:text-blue-800 transition-colors"
+                >
+                  View publication
+                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                  </svg>
+                </a>
               )}
             </div>
           ))}

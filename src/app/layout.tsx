@@ -11,6 +11,18 @@ export const metadata: Metadata = {
   title: "Andrew Ju",
   description:
     "Personal website of Andrew Ju — Math of Computation at UCLA. Quant finance, machine learning, and full-stack development.",
+  openGraph: {
+    title: "Andrew Ju",
+    description:
+      "Math of Computation @ UCLA. Quant finance, machine learning, and full-stack development.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Andrew Ju",
+    description:
+      "Math of Computation @ UCLA. Quant finance, machine learning, and full-stack development.",
+  },
 };
 
 export default function RootLayout({

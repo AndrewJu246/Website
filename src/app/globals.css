@@ -8,6 +8,10 @@ body {
   font-family: var(--font-sans, "Inter", system-ui, sans-serif);
 }
 
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
 @keyframes fade-in-up {
   from {
     opacity: 0;

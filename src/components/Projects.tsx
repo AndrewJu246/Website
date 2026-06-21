@@ -5,7 +5,7 @@ const projects = [
       "Campus-exclusive iOS app for UCLA students to post, discover, and join meetup plans with real-time group messaging. Shipped to the App Store.",
     tech: ["React Native", "Expo", "TypeScript", "Supabase"],
     context: "ACM at UCLA — Tech Fellow",
-    link: null,
+    link: "https://github.com/liam-berger/ucla-friends",
   },
   {
     title: "Retail-Edge Market Screener",
