@@ -51,13 +51,13 @@ export default function Research() {
   return (
     <section id="research" className="py-24 px-6">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-sm font-semibold uppercase tracking-widest text-gray-400 mb-12">
+        <h2 className="text-sm font-semibold uppercase tracking-widest text-blue-600 mb-12">
           Research & Publications
         </h2>
 
         <div className="space-y-10">
           {research.map((r) => (
-            <div key={r.institution + r.role} className="border-l-2 border-gray-200 pl-6">
+            <div key={r.institution + r.role} className="border-l-2 border-blue-300 pl-6 hover:border-blue-500 transition-colors duration-300">
               <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1">
                 <h3 className="text-lg font-semibold text-gray-900">{r.institution}</h3>
                 <span className="text-sm text-gray-400 shrink-0">{r.date}</span>

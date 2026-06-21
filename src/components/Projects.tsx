@@ -39,9 +39,9 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 px-6 bg-gray-50/50">
+    <section id="projects" className="py-24 px-6 bg-blue-50/30">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-sm font-semibold uppercase tracking-widest text-gray-400 mb-12">
+        <h2 className="text-sm font-semibold uppercase tracking-widest text-blue-600 mb-12">
           Projects
         </h2>
 
@@ -49,7 +49,7 @@ export default function Projects() {
           {projects.map((p) => (
             <div
               key={p.title}
-              className="group bg-white rounded-xl border border-gray-100 p-6 hover:border-gray-200 hover:shadow-sm transition-all"
+              className="group bg-white rounded-xl border border-gray-100 p-6 hover:border-blue-200 hover:shadow-md hover:shadow-blue-100/50 hover:-translate-y-0.5 transition-all duration-300"
             >
               <div className="flex items-start justify-between gap-2">
                 <h3 className="text-lg font-semibold text-gray-900">{p.title}</h3>
@@ -58,7 +58,7 @@ export default function Projects() {
                     href={p.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-gray-900 transition-colors shrink-0 mt-1"
+                    className="text-gray-300 hover:text-blue-600 transition-colors duration-200 shrink-0 mt-1"
                     aria-label={`View ${p.title} on GitHub`}
                   >
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

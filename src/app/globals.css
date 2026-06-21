@@ -1,15 +1,41 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: var(--font-inter);
+  --font-sans: var(--font-space);
+  --color-blue-50: #f0f5fc;
+  --color-blue-100: #d9e5f5;
+  --color-blue-200: #b3ccea;
+  --color-blue-300: #8db2df;
+  --color-blue-400: #5389ca;
+  --color-blue-500: #1955b5;
+  --color-blue-600: #15499d;
+  --color-blue-700: #103b82;
 }
 
 body {
-  font-family: var(--font-sans, "Inter", system-ui, sans-serif);
+  font-family: var(--font-sans, "Space Grotesk", system-ui, sans-serif);
 }
 
 section[id] {
   scroll-margin-top: 5rem;
+}
+
+/* Nav link animated underline */
+.nav-link {
+  position: relative;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #1955b5;
+  transition: width 0.3s ease;
+}
+.nav-link:hover::after {
+  width: 100%;
 }
 
 @keyframes fade-in-up {

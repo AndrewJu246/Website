@@ -35,9 +35,9 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-24 px-6 bg-gray-50/50">
+    <section id="experience" className="py-24 px-6 bg-blue-50/30">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-sm font-semibold uppercase tracking-widest text-gray-400 mb-12">
+        <h2 className="text-sm font-semibold uppercase tracking-widest text-blue-600 mb-12">
           Experience
         </h2>
 
@@ -56,7 +56,7 @@ export default function Experience() {
               </div>
               <ul className="mt-3 space-y-2">
                 {exp.bullets.map((b, i) => (
-                  <li key={i} className="text-gray-600 text-sm leading-relaxed pl-4 relative before:content-[''] before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:bg-gray-300 before:rounded-full">
+                  <li key={i} className="text-gray-600 text-sm leading-relaxed pl-4 relative before:content-[''] before:absolute before:left-0 before:top-2 before:w-1.5 before:h-1.5 before:bg-blue-400 before:rounded-full">
                     {b}
                   </li>
                 ))}

@@ -5,8 +5,8 @@ export default function Hero() {
         <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 animate-fade-in-up">
           Andrew Ju
         </h1>
-        <p className="mt-4 text-xl md:text-2xl text-gray-500 animate-fade-in-up animation-delay-100">
-          Mathematics of Computation @ UCLA
+        <p className="mt-4 text-xl md:text-2xl text-gray-400 animate-fade-in-up animation-delay-100">
+          Mathematics of Computation <span className="text-blue-500">@</span> UCLA
         </p>
         <p className="mt-6 text-base text-gray-600 leading-relaxed animate-fade-in-up animation-delay-200">
           Quantitative finance, machine learning, and full-stack development.
@@ -19,7 +19,7 @@ export default function Hero() {
             href="https://github.com/AndrewJu246"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-gray-900 transition-colors"
+            className="text-gray-300 hover:text-gray-900 transition-colors duration-200"
             aria-label="GitHub"
           >
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -30,7 +30,7 @@ export default function Hero() {
             href="https://www.linkedin.com/in/andrewju/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-blue-600 transition-colors"
+            className="text-gray-300 hover:text-blue-600 transition-colors duration-200"
             aria-label="LinkedIn"
           >
             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -39,7 +39,7 @@ export default function Hero() {
           </a>
           <a
             href="mailto:andrewju89@ucla.edu"
-            className="text-gray-400 hover:text-gray-900 transition-colors"
+            className="text-gray-300 hover:text-blue-600 transition-colors duration-200"
             aria-label="Email"
           >
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
@@ -52,7 +52,7 @@ export default function Hero() {
           <a
             href="/resume.pdf"
             download
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-gray-200 text-sm text-gray-600 hover:border-gray-300 hover:text-gray-900 transition-all"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-blue-200 text-sm text-blue-600 hover:bg-blue-50 hover:border-blue-300 transition-all"
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
