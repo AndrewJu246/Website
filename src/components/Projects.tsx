@@ -42,7 +42,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-24 px-6 bg-blue-50/30">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-sm font-semibold uppercase tracking-widest text-blue-600 mb-12">
+        <h2 className="text-base font-semibold uppercase tracking-widest text-blue-600 mb-12">
           Projects
         </h2>
 

@@ -37,7 +37,7 @@ export default function Experience() {
   return (
     <section id="experience" className="py-24 px-6 bg-blue-50/30">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-sm font-semibold uppercase tracking-widest text-blue-600 mb-12">
+        <h2 className="text-base font-semibold uppercase tracking-widest text-blue-600 mb-12">
           Experience
         </h2>
 

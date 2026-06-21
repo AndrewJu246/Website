@@ -28,7 +28,7 @@ export default function Skills() {
   return (
     <section className="py-24 px-6">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-sm font-semibold uppercase tracking-widest text-blue-600 mb-12">
+        <h2 className="text-base font-semibold uppercase tracking-widest text-blue-600 mb-12">
           Skills
         </h2>
 

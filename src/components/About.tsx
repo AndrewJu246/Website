@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section id="about" className="py-24 px-6">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-sm font-semibold uppercase tracking-widest text-blue-600 mb-4">
+        <h2 className="text-base font-semibold uppercase tracking-widest text-blue-600 mb-4">
           About
         </h2>
         <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
