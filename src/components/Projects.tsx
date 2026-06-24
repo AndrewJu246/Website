@@ -47,10 +47,10 @@ export default function Projects() {
         </h2>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {projects.map((p) => (
+          {projects.map((p, i) => (
             <div
               key={p.title}
-              className="group bg-white rounded-xl border border-gray-100 p-6 hover:border-blue-200 hover:shadow-md hover:shadow-blue-100/50 hover:-translate-y-0.5 transition-all duration-300"
+              className={`group bg-white rounded-xl border border-gray-100 p-6 hover:border-blue-200 hover:shadow-md hover:shadow-blue-100/50 hover:-translate-y-0.5 transition-all duration-300${i === projects.length - 1 && projects.length % 2 === 1 ? " md:col-span-2 md:max-w-[calc(50%-0.75rem)] md:mx-auto" : ""}`}
             >
               <div className="flex items-start justify-between gap-2">
                 <h3 className="text-lg font-semibold text-gray-900">{p.title}</h3>

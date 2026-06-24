@@ -10,7 +10,7 @@ export default function Hero() {
         </p>
         <p className="mt-6 text-base text-gray-600 leading-relaxed animate-fade-in-up animation-delay-200">
           Quantitative finance, machine learning, and full-stack development.
-          <br className="hidden sm:block" />
+          <br className="hidden sm:block" />{" "}
           Building tools that find signal in noise.
         </p>
 
